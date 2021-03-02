@@ -1,0 +1,42 @@
+{
+  "name": "@mnao305/renovate-config",
+  "version": "1.0.0",
+  "description": "my renovate config",
+  "renovate-config": {
+    "default": {
+      "extends": [
+        "config:base",
+        ":prNotPending"
+      ],
+      "timezone": "Asia/Tokyo",
+      "schedule": ["every weekend"],
+      "major": {
+        "automerge": false
+      },
+      "minor": {
+        "automerge": true,
+        "groupName": "minor dependencies"
+      },
+      "patch": {
+        "automerge": true,
+        "groupName": "patch dependencies"
+      }
+    }
+  },
+  "scripts": {
+    "test": "renovate-config-validator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mnao305/renovate-config.git"
+  },
+  "author": "mnao305 <mail@mnao305.com> (https://mnao305.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnao305/renovate-config/issues"
+  },
+  "homepage": "https://github.com/mnao305/renovate-config#readme",
+  "devDependencies": {
+    "renovate": "^24.70.1"
+  }
+}

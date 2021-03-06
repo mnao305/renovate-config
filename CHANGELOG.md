@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/mnao305/renovate-config/compare/v1.1.0...v1.2.0) (2021-03-06)
+
+
+### Features
+
+* PRs that pin dependencies are automatically merged ([dbc45aa](https://www.github.com/mnao305/renovate-config/commit/dbc45aaad66967d260c294b38d3a9834130d4b52))
+
+
+### Bug Fixes
+
+* edit vulnerabilityAlerts schedule ([eb38ebf](https://www.github.com/mnao305/renovate-config/commit/eb38ebf4bbdd303e5fbe71502cfdcb7474c1f678))
+
 ## [1.1.0](https://www.github.com/mnao305/renovate-config/compare/v1.0.0...v1.1.0) (2021-03-06)
 
 

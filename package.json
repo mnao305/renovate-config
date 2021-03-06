@@ -9,8 +9,12 @@
         ":prNotPending"
       ],
       "timezone": "Asia/Tokyo",
-      "schedule": ["every weekend"],
-      "labels": ["renovate"],
+      "schedule": [
+        "every weekend"
+      ],
+      "labels": [
+        "renovate"
+      ],
       "major": {
         "automerge": false
       },

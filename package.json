@@ -28,7 +28,7 @@
       },
       "vulnerabilityAlerts": {
         "schedule": [
-          "before 5:00am"
+          "before 2am"
         ],
         "addLabels": [
           "security"

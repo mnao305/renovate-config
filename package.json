@@ -50,6 +50,6 @@
   },
   "homepage": "https://github.com/mnao305/renovate-config#readme",
   "devDependencies": {
-    "renovate": "^24.70.1"
+    "renovate": "24.70.1"
   }
 }

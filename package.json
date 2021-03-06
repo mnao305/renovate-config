@@ -33,6 +33,12 @@
         "addLabels": [
           "security"
         ]
+      },
+      "pin": {
+        "schedule": [
+          "before 2am"
+        ],
+        "automerge": true
       }
     }
   },

@@ -25,6 +25,14 @@
       "patch": {
         "automerge": true,
         "groupName": "patch dependencies"
+      },
+      "vulnerabilityAlerts": {
+        "schedule": [
+          "before 5:00am"
+        ],
+        "addLabels": [
+          "security"
+        ]
       }
     }
   },

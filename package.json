@@ -21,22 +21,7 @@
         "automerge": false
       },
       "minor": {
-        "automerge": true,
-        "packageRules": [
-          {
-            "groupName": "minor dependencies",
-            "matchDepTypes": [
-              "dependencies",
-              "peerDependencies"
-            ]
-          },
-          {
-            "groupName": "minor devDependencies",
-            "matchDepTypes": [
-              "devDependencies"
-            ]
-          }
-        ]
+        "automerge": true
       },
       "patch": {
         "automerge": true,

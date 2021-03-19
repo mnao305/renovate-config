@@ -81,19 +81,6 @@
             "^eslint-config-",
             "^eslint-plugin-"
           ]
-        },
-        {
-          "matchPackagePatterns": [
-            "*"
-          ],
-          "semanticCommitType": "chore"
-        },
-        {
-          "matchDepTypes": [
-            "dependencies",
-            "peerDependencies"
-          ],
-          "semanticCommitType": "fix"
         }
       ]
     }

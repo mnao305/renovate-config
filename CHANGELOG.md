@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/mnao305/renovate-config/compare/v1.3.0...v1.4.0) (2021-03-19)
+
+
+### Features
+
+* add eslint group ([2bace16](https://www.github.com/mnao305/renovate-config/commit/2bace16df8105903d6c3185c335ce62351a5ea86))
+* add group:monorepos presets ([aa5b05a](https://www.github.com/mnao305/renovate-config/commit/aa5b05ad35997a1ab39a489085bc48d0ca714891))
+* add npm:unpublishSafe presets ([0451c12](https://www.github.com/mnao305/renovate-config/commit/0451c12e691c4f42bd07c0a8959ba0a622c3789e))
+* change commit type by DepType ([ab26370](https://www.github.com/mnao305/renovate-config/commit/ab263705fdcb7526c853aa1a348b8aedd22e41cb))
+* divided into groups by dependencies ([06ebae9](https://www.github.com/mnao305/renovate-config/commit/06ebae9721e59cdd34a3a2cd6caa2310e07e0849))
+
 ## [1.3.0](https://www.github.com/mnao305/renovate-config/compare/v1.2.0...v1.3.0) (2021-03-19)
 
 

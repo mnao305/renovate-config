@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.4.1](https://www.github.com/mnao305/renovate-config/compare/v1.4.0...v1.4.1) (2021-03-19)
+
+
+### Reverts
+
+* "feat: change commit type by DepType" ([8e45685](https://www.github.com/mnao305/renovate-config/commit/8e4568502332de44b24bc0c8b16ee61d421c10d1))
+
 ## [1.4.0](https://www.github.com/mnao305/renovate-config/compare/v1.3.0...v1.4.0) (2021-03-19)
 
 

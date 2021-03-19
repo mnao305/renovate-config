@@ -39,7 +39,20 @@
           "at any time"
         ],
         "automerge": true
-      }
+      },
+      "packageRules": [
+        {
+          "groupName": "ESLint",
+          "matchPackageNames": [
+            "eslint",
+            "@typescript-eslint/eslint-plugin"
+          ],
+          "matchPackagePatterns": [
+            "^eslint-config-",
+            "^eslint-plugin-"
+          ]
+        }
+      ]
     }
   },
   "scripts": {

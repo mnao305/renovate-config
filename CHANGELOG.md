@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/mnao305/renovate-config/compare/v1.2.0...v1.3.0) (2021-03-19)
+
+
+### Features
+
+* change pin and security at any time ([244d741](https://www.github.com/mnao305/renovate-config/commit/244d7412b2ef6e44e7650a16ff1f301ccce00d6c))
+
 ## [1.2.0](https://www.github.com/mnao305/renovate-config/compare/v1.1.0...v1.2.0) (2021-03-06)
 
 

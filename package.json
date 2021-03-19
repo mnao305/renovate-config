@@ -22,11 +22,39 @@
       },
       "minor": {
         "automerge": true,
-        "groupName": "minor dependencies"
+        "packageRules": [
+          {
+            "groupName": "minor dependencies",
+            "matchDepTypes": [
+              "dependencies",
+              "peerDependencies"
+            ]
+          },
+          {
+            "groupName": "minor devDependencies",
+            "matchDepTypes": [
+              "devDependencies"
+            ]
+          }
+        ]
       },
       "patch": {
         "automerge": true,
-        "groupName": "patch dependencies"
+        "packageRules": [
+          {
+            "groupName": "patch dependencies",
+            "matchDepTypes": [
+              "dependencies",
+              "peerDependencies"
+            ]
+          },
+          {
+            "groupName": "patch devDependencies",
+            "matchDepTypes": [
+              "devDependencies"
+            ]
+          }
+        ]
       },
       "vulnerabilityAlerts": {
         "schedule": [

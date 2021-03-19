@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://www.github.com/mnao305/renovate-config/compare/v1.4.1...v1.5.0) (2021-03-19)
+
+
+### Features
+
+* change minor update not to group ([fdc74b8](https://www.github.com/mnao305/renovate-config/commit/fdc74b8ab0831f040c00384b9e9daa465089bfa7))
+
 ### [1.4.1](https://www.github.com/mnao305/renovate-config/compare/v1.4.0...v1.4.1) (2021-03-19)
 
 

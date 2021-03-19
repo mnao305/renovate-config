@@ -6,7 +6,8 @@
     "default": {
       "extends": [
         "config:base",
-        ":prNotPending"
+        ":prNotPending",
+        "group:monorepos"
       ],
       "timezone": "Asia/Tokyo",
       "schedule": [

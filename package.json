@@ -28,7 +28,7 @@
       },
       "vulnerabilityAlerts": {
         "schedule": [
-          "before 2am"
+          "at any time"
         ],
         "addLabels": [
           "security"
@@ -36,7 +36,7 @@
       },
       "pin": {
         "schedule": [
-          "before 2am"
+          "at any time"
         ],
         "automerge": true
       }

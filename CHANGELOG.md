@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.6.0](https://www.github.com/mnao305/renovate-config/compare/v1.5.0...v1.6.0) (2021-08-28)
+
+
+### Features
+
+* enable automatic merging in security updates ([1c9b984](https://www.github.com/mnao305/renovate-config/commit/1c9b9840031fb850c5174214556a52ca7fefdf6c))
+
+
+### Bug Fixes
+
+* fix syntax error ([5eae9de](https://www.github.com/mnao305/renovate-config/commit/5eae9de22906fe75269ec2c67d17f01ea991f9c1))
+
 ## [1.5.0](https://www.github.com/mnao305/renovate-config/compare/v1.4.1...v1.5.0) (2021-03-19)
 
 

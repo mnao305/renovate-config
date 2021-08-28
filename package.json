@@ -51,7 +51,7 @@
         "automerge": true,
         "major": {
           "automerge": false
-        },
+        }
       },
       "pin": {
         "schedule": [

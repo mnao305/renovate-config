@@ -88,6 +88,6 @@
   },
   "homepage": "https://github.com/mnao305/renovate-config#readme",
   "devDependencies": {
-    "renovate": "24.119.23"
+    "renovate": "31.27.1"
   }
 }

@@ -8,6 +8,9 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 
 ```json
 {
-  "extends": ["@mnao305"]
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>mnao305/renovate-config"
+  ]
 }
 ```

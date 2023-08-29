@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/mnao305/renovate-config#readme",
   "devDependencies": {
-    "renovate": "32.196.2"
+    "renovate": "^36.71.0"
   }
 }

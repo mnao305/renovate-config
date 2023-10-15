@@ -59,12 +59,12 @@
     {
       "groupName": "ESLint",
       "matchPackageNames": [
-        "eslint",
-        "@typescript-eslint/eslint-plugin"
+        "eslint"
       ],
       "matchPackagePatterns": [
         "^eslint-config-",
-        "^eslint-plugin-"
+        "^eslint-plugin-",
+        "^@typescript-eslint/"
       ]
     }
   ]

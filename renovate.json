@@ -66,6 +66,12 @@
         "^eslint-plugin-",
         "^@typescript-eslint/"
       ]
+    },
+    {
+      "groupName": "storybook",
+      "matchPackagePatterns": [
+        "^@storybook/"
+      ]
     }
   ]
 }

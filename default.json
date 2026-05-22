@@ -1,0 +1,45 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:best-practices"
+  ],
+  "timezone": "Asia/Tokyo",
+  "schedule": [
+    "* 0-8,22-23 * * 1-5",
+    "* * * * 0,6"
+  ],
+  "labels": [
+    "renovate"
+  ],
+  "vulnerabilityAlerts": {
+    "schedule": [
+      "* * * * *"
+    ],
+    "addLabels": [
+      "security"
+    ]
+  },
+  "packageRules": [
+    {
+      "description": "Wait 14 days before normal version updates to reduce supply-chain risk.",
+      "matchPackageNames": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "major",
+        "minor",
+        "patch"
+      ],
+      "minimumReleaseAge": "14 days",
+      "internalChecksFilter": "strict"
+    },
+    {
+      "description": "Automerge patch updates after checks pass.",
+      "matchUpdateTypes": [
+        "patch"
+      ],
+      "automerge": true,
+      "automergeType": "branch"
+    }
+  ]
+}

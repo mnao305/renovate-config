@@ -3,7 +3,7 @@
   "version": "1.6.0",
   "description": "my renovate config",
   "scripts": {
-    "test": "renovate-config-validator"
+    "test": "renovate-config-validator --no-global default.json renovate.json"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,6 @@
   },
   "homepage": "https://github.com/mnao305/renovate-config#readme",
   "devDependencies": {
-    "renovate": "^37.0.0"
+    "renovate": "^43.150.0"
   }
 }

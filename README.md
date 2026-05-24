@@ -15,6 +15,6 @@ Enable Renovate in your repo and just `extends` in `renovate.json`.
 }
 ```
 
-This preset uses Renovate's best-practices preset as the base, waits 14 days before normal version updates, runs routine updates outside typical working hours in Asia/Tokyo, labels vulnerability alerts, and automerges patch updates after checks pass.
+This preset uses Renovate's best-practices preset as the base, waits 14 days before normal version updates, pins GitHub Actions to exact version tags before digest pinning, runs routine updates outside typical working hours in Asia/Tokyo, labels vulnerability alerts, and automerges patch updates after checks pass.
 
 `default.json` is the shareable preset entrypoint. `renovate.json` is only for this repository and extends the local preset so the configuration stays in one place.

@@ -34,6 +34,20 @@
       "internalChecksFilter": "strict"
     },
     {
+      "description": "Pin GitHub Actions to exact tags before digest pinning so the retained comment shows the full version.",
+      "matchManagers": [
+        "github-actions"
+      ],
+      "matchDepTypes": [
+        "action"
+      ],
+      "matchDatasources": [
+        "github-tags"
+      ],
+      "rangeStrategy": "pin",
+      "pinDigests": true
+    },
+    {
       "description": "Automerge patch updates after checks pass.",
       "matchUpdateTypes": [
         "patch"

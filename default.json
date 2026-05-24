@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    "helpers:pinGitHubActionDigestsToSemver"
   ],
   "timezone": "Asia/Tokyo",
   "schedule": [
@@ -32,20 +33,6 @@
       ],
       "minimumReleaseAge": "14 days",
       "internalChecksFilter": "strict"
-    },
-    {
-      "description": "Pin GitHub Actions to exact tags before digest pinning so the retained comment shows the full version.",
-      "matchManagers": [
-        "github-actions"
-      ],
-      "matchDepTypes": [
-        "action"
-      ],
-      "matchDatasources": [
-        "github-tags"
-      ],
-      "rangeStrategy": "pin",
-      "pinDigests": true
     },
     {
       "description": "Automerge patch updates after checks pass.",
